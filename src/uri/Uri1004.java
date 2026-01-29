@@ -2,23 +2,20 @@ package uri;
 
 import java.util.Scanner;
 
-public class Uri1007 {
+public class Uri1004 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 
-		int a, b, c, d, dif;
+		int a, b;
 
 		a = sc.nextInt();
 		b = sc.nextInt();
-		c = sc.nextInt();
-		d = sc.nextInt();
 
-		dif = a * b - c * d;
+		int prod = a * b;
 
-		System.out.println("DIFERENCA = " + dif);
+		System.out.println("PROD = " + prod);
 
 		sc.close();
-
 	}
 }

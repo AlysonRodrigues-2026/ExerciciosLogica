@@ -7,12 +7,12 @@ public class Uri1003 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int A, B, soma;
+		int a, b, soma;
 
-		A = sc.nextInt();
-		B = sc.nextInt();
+		a = sc.nextInt();
+		b = sc.nextInt();
 
-		soma = A + B;
+		soma = a + b;
 
 		System.out.println("SOMA = " + soma);
 

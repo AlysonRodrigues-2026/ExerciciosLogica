@@ -10,13 +10,13 @@ public class Uri1002 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		double R, A, pi = 3.14159;
+		double raio, area, pi = 3.14159;
 
-		R = sc.nextDouble();
+		raio = sc.nextDouble();
 
-		A = pi * R * R;
+		area = pi * raio * raio;
 
-		System.out.printf("A=%.4f%n", A);
+		System.out.printf("A=%.4f%n", area);
 
 		sc.close();
 
