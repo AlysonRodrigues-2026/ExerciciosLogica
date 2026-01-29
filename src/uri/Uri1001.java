@@ -13,6 +13,8 @@ public class Uri1001 {
 		int x = a + b;
 
 		System.out.println("X = " + x);
+		
+		sc.close();
 
 	}
 }
